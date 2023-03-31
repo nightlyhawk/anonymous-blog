@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@100&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #101010;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+
+nav
+{
+  background-color: #F5F5F5;
+  width: 41%;
+  height: 55px;
+  border-radius: 28px;
+  margin: auto;
+  margin-top: 15px;
+}
+nav>div
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 200px;
+  padding: 10px 0;
+}
+.navI
+{
+  height: 35px;
+}
+h1
+{
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 39px;
+  font-weight: 400;
+}
+header
+{
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 30px;
+  font-weight: 400;
+}
+div>p>img
+{
+  color: red;
+}
+h3
+{
+  font-size: 27px;
+  font-weight: 500;
+}
+.comH
+{
+  font-size: 20px;
+}
+.senI
+{
+  height: 120px;
+  margin-top: 8%;
+}
+.p
+{
+  margin-top: 14%;
+}
+p
+{
+  font-size: 24px;
+}
+.replies
+{
+  display: none;
+}
+strong
+{
+  color: #FFD42D;
+}
+.input
+{
+  background-color: #0BB4AA;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 20px;
+  width: 343px;
+  height: 46px;
+}
+/* .container
+{
+  width: 80%;
+  text-align: center;
+  margin: auto;
+} */
+.homeContainer
+{
+  text-align: center;
+}
+.comBox
+{
+  background-color: transparent;
+  color: white;
+  border-radius: 8px;
+  margin-top: 2%;
+}
+#comBtn
+{
+  margin-top: 9%;
+}
+#viewBtn
+{
+  margin-top: 18%;
+}
+.user
+{
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+  width: 79%;
+  height: 45px;
+  color: white;
+}
+.post
+{
+  text-align: left;
+  padding-left: 5%;
+}
+.postbox
+{
+  border: 1px solid white;
+  border-radius: 16px;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 35px;
+}
+.postbox>img
+{
+  height: 100px;
+  width: 100px;
+  position: relative;
+  right: 32%;
+  top: 62px;
+}
+#title
+{
+  margin-right: 7%;
+}
+.postbox>input
+{
+  background-color: transparent;
+  border-bottom: 1px solid;
+  color: #FFD42D;
+  width: 87%;
+  position: relative;
+  left: 6%;
+}
+#replies
+{
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 90%;
+  font-size: 22px;
+  margin: auto;
+}
+.views
+{
+  border: none;
+  background-color: transparent;
+  color: #FFD42D;
+  font-size: 25px;
+  padding: 10px 0;
+}
+.bottoms
+{
+  margin-right: 62%;
+}
+footer
+{
+  padding: 83px;
+}
